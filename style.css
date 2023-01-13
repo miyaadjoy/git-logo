@@ -1,0 +1,80 @@
+*, *::after, *::before
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 300px;
+}
+.logo-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-square
+{
+    background-color: #F06032;
+    height: 170px;
+    width: 170px;
+    border: none;
+    border-radius: 10px;
+    transform: rotate(-45deg);
+}
+
+.logo-rectangle1
+{
+    height: 100px;
+    width: 12px;
+    background-color: #fff;
+    margin-left: 110px;
+}
+
+.logo-rectangle2
+{
+    height: 64px;
+    width: 12px;
+    background-color: #fff;
+    margin-left: 77px;
+    margin-top: -15px;
+    transform: rotate(45deg);
+}
+
+
+.logo-circle1
+{
+    height: 35px;
+    width: 35px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-left: 98.5px;
+    margin-top: -1px;
+}
+
+.logo-circle2
+{
+    height: 35px;
+    width: 35px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-left: 98.5px;
+    margin-top: -103px;
+}
+
+.logo-circle3
+{
+    height: 35px;
+    width: 35px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-top: -15px;
+    margin-left: 33px;
+    
+}
